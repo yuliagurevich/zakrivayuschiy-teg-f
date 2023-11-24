@@ -7,27 +7,19 @@
     <title>Закрывающий тег</title>
     <link rel="icon" href="./svg/favicon.ico" sizes="any">
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="./svg/mobile-icon.png">
+    <link rel="apple-touch-icon" href="./svg/apple-touch-icon.png">
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
-    <!--
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    -->
-
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
     <header class="header">
+      <p class="logo">&lt;/HTML&gt;</p>
+      <h1 class="header-heading">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -54,7 +46,34 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main class="content">
+      <section class="content-section">
+        <h2 class="content-heading">Фритрек и нулевой спринт: Подготовка к работе</h2>
+        <div class="content-image"><span class="label">&lt;/HTML&gt;</span></div>
+        <div class="content-wrapper">
+          <p class="content-text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+          <p class="content-text">Место для ваших воспоминаний о начале обучения.</p>          
+          <div class="like-wrapper">
+            <button class="heart-button">
+              <svg width="39" height="36" viewBox="0 0 39 36">
+                <use href="./svg/heart.svg#heart">
+              </svg>
+            </button>  
+            <button class="like-button">
+              <span class="button__text">Like</span>
+            </button>          
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <button class="footer-button">
+          <svg class="icon" width="40" height="40" viewBox="0 0 40 40">
+            <use href="./svg/floppy.svg#floppy">
+          </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+    </footer>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
